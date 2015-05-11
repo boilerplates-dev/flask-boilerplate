@@ -19,6 +19,7 @@ itsdangerous==0.24
 Jinja2==2.7.3
 Mako==1.0.1
 MarkupSafe==0.23
+python-dotenv==0.1.2
 redis==2.10.3
 rq==0.5.1
 SQLAlchemy==0.9.9
