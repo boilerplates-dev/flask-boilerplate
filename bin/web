@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ "$FLASK_ENV" == "development" ]; then
-    python manage.py runserver
-else
-    gunicorn app:app -w 3
-fi
